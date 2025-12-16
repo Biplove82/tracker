@@ -1,4 +1,4 @@
-const bdleadsModells = require("../../Modells/BD/leadModells")
+const bdleadsModells = require("../../modells/BD/leadModells");
 const userModells = require("../../Modells/user/user")
 const mongoose =require("mongoose")
 
