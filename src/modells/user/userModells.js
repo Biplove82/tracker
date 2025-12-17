@@ -80,10 +80,7 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// ----------------- Indexes for Performance -----------------
-userSchema.index({ email: 1 });
-userSchema.index({ emp_id: 1 });
-userSchema.index({ role: 1 });
+
 
 // ----------------- Pre-save hooks -----------------
 userSchema.pre("save", async function (next) {
