@@ -1,5 +1,5 @@
 const bdleadsModells = require("../../modells/BD/leadModells");
-const userModells = require("../../Modells/user/user")
+const userModells = require("../../modells/user/userModells");
 const mongoose =require("mongoose")
 
 const createBDlead = async function (req, res) {
